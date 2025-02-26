@@ -1,0 +1,31 @@
+table{
+    border: 1pt  solid black;
+    border-collapse:collapse; /*giúp xóa bỏ khoảng cách giữa các ô trong bảng.*/
+    table-layout: fixed;
+    justify-content: baseline;
+    font-size: 15pt;
+    width: 500pt;
+    height: 300pt;
+}
+table th{
+    width:100px;
+    border:1pt solid black;
+    text-align: center;
+    padding:0 10pt 0 10pt; /*top right bottom left*/
+    padding-bottom: 0;
+    background-color: rgb(211, 208, 208);
+}
+table td{
+    border: 1pt solid black; 
+    text-align: center;
+    padding: 0 10pt 0 10pt;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+table td:first-child{
+    font-weight: bold;
+    background-color: gray;
+}
+table td:last-child{
+    background-color: rgb(199, 195, 195);
+}

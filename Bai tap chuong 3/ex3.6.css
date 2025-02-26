@@ -1,0 +1,34 @@
+.wrap{
+    border:2px solid black;
+    background-color:lightyellow
+}
+h1{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    font-weight: bold;
+    font-size: 15pt;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    text-align: justify;
+    font-weight: normal;
+    padding-right: 50px;
+}
+.p62 li{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: normal;
+    font-style: italic;
+}
+.p63 li{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: normal;
+    font-style: normal;
+}

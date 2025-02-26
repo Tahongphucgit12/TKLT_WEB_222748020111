@@ -1,0 +1,18 @@
+.coverr{
+    border: 3px solid black;
+    padding:10px;
+    background-color:pink;
+}
+h1{
+    text-align: center;
+    color:blue;
+}
+.coverr ol{
+    margin:25px;
+    font-size: 14px;
+    color:black;
+    font-weight: bolder;
+}
+.coverr li{
+    margin:15px;
+}

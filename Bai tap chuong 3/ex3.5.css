@@ -1,0 +1,60 @@
+.part1{
+    border: 1px solid  black;
+}
+.p1{
+    background-color: gray;
+    margin: 5px;
+}
+.part2{
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-weight:bold
+}
+.top2{
+    font-weight: normal;
+    padding-left: 30px;
+}
+.part3{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.part4{
+    color:black;
+    font-size: 13pt;
+    font-weight: bold;
+}
+.part4 ul{
+    font-size: 13pt;
+    font-weight:normal
+}
+.p4-1 li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p4-2 li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p4-3 li{
+    font-family: 'Times New Roman', Times, serif;
+}
+.part5{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 0px;
+}
+.p5-1{
+    text-decoration: underline;
+}
+.part5 li{
+
+    color: red;
+    margin-left: 30px;
+    font-style: normal;
+
+}
+.p5{
+    font-style: italic;
+    font-weight: normal;
+
+}
