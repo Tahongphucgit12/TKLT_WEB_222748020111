@@ -1,0 +1,62 @@
+body{
+    margin:auto;
+}
+.part1 {
+    display: flex;
+    justify-content: space-between; /* Chia đều không gian giữa phần trái và phải */
+    font-size: 20px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+}
+
+.left p, .right p {
+    margin: 0;
+    padding: 5px 0; /* Thêm chút khoảng cách giữa các đoạn văn */
+}
+.left{
+    text-align: center;
+}
+.top{
+    font-weight: bold;
+}
+.right{
+    text-align: center;
+    padding-left: 20px;
+}
+
+.part2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 0 1px 1px;
+    text-align: center;
+}
+.part5 p{
+    font-size: 20pt;
+
+}
+.part6 p{
+    font-size:20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin:0 0 0 0;
+}
+.part7 p{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.part8 p{
+    font-size: 18pt;
+    font-weight: bold;
+}
+.part9{
+    height: 50px;
+    margin:auto;
+}

@@ -1,0 +1,29 @@
+.part2 table{
+    border: 1pt  solid black;
+    border-collapse:collapse; /*giúp xóa bỏ khoảng cách giữa các ô trong bảng.*/
+    table-layout: fixed;
+    justify-content: baseline;
+    font-size: 15pt;
+    width: 500pt;
+    height: 300pt;
+}
+.part2 table th{
+    border:1pt solid black;
+    padding:10pt
+}
+.part2 table td{
+    border: 1pt solid black; 
+    text-align: left;
+    padding:10pt
+}
+.part2  table td:last-child{
+    text-align: right;
+}
+.part3 p{
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+
+h2{
+    text-transform: uppercase;
+}

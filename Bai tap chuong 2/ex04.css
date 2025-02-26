@@ -1,0 +1,60 @@
+.part1{
+
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: gray;
+}
+.part1 p{
+    margin:0 0 0 0;
+}
+.part2 {
+    display: flex;
+    justify-content: space-between; /* Chia đều không gian giữa phần trái và phải */
+    font-size: 20px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+}
+
+.left p, .right p {
+    margin: 0;
+    padding: 5px 0; /* Thêm chút khoảng cách giữa các đoạn văn */
+}
+.left{
+    text-align: center;
+}
+.top{
+    font-weight: bold;
+}
+.right{
+    text-align: center;
+    padding-left: 20px;
+}
+.part3{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 0 1px 1px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    font-size: 20px;
+}
+.part3 h3{
+    margin: 0 0 5 8;
+}
+.part4{
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.mybutton {
+    width: 200px;        
+    height: 50px;       
+    font-size: 18px;     
+    padding: 10px 20px;   
+    background-color: white; 
+    color: black;  
+    font-weight: bold;
+}

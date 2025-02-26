@@ -1,0 +1,51 @@
+.part1 {
+    display: flex;
+    justify-content: space-between; /* Chia đều không gian giữa phần trái và phải */
+    font-size: 20px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+}
+
+.left p, .right p {
+    margin: 0;
+    padding: 5px 0; /* Thêm chút khoảng cách giữa các đoạn văn */
+}
+.left{
+    text-align: center;
+}
+.top{
+    font-weight: bold;
+}
+.right{
+    text-align: center;
+    padding-left: 20px;
+}
+.part2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+
+}
+.part2 h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 0 1px 1px;
+}
+.part2 p{
+    font-style: italic;
+    padding: 5px 0 0px 0px;
+}
+
+.part3 ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
+}
+.part3 ol ul{
+    font-weight: normal;
+}
