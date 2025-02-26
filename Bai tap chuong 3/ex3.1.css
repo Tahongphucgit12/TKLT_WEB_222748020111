@@ -1,0 +1,29 @@
+body{
+    border:2px solid black;
+    padding: 10px;
+}
+h1,h2,h3{
+    text-transform: uppercase;
+}
+.part1{
+    color: red;
+}
+.part2{
+    color: blue;
+}
+.part3{
+    color: green;
+}
+.part4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.part5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.p5{
+   background-color: yellow;
+}

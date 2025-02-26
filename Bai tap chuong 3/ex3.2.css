@@ -1,0 +1,36 @@
+body{
+    padding: 10px;
+    border: 2px solid black;
+}
+.part1{
+    text-align: center;
+    color: red;
+    background-color: gray;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+}
+.part1 h2{
+    margin: 0 0 0 0;
+
+}
+.part2{
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    background-color: blue;
+
+}
+.part2 p{
+    margin: 0 0 0 0;
+}
+.part3{
+    font-size: 14px;
+    font-style: italic;
+    color: yellow;
+    background-color: brown;
+
+}
+.part3 p{
+    margin: 0 0 0 0;
+
+}
