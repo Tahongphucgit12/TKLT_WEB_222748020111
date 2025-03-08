@@ -1,0 +1,40 @@
+
+.menu {
+    display:grid;
+    padding:30px;
+    border-radius: 30px;
+    background-color: aqua;
+    place-items: center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+
+}
+button{
+    margin: 10px;
+    min-width: 160px;
+    min-height: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: chartreuse;
+    border: none;
+    
+}
+p{
+    min-width: 260px;
+    min-height: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+button:hover{
+    background-color: var();
+    color: blue;
+    transform: scale(120%);
+    border-radius: 60px;
+}
